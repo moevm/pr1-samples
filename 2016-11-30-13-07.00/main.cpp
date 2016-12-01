@@ -18,7 +18,7 @@ int main(/*int c, char **v */)
   (*strstr(str1,"\n"))=0;
   (*strstr(str2,"\n"))=0;
 
-  printf("\n line1=[%s], line2 = [%s], dat=%d\n",str1, str2, dat);
+  printf("%d \n line1=[%s], line2 = [%s], dat=%d\n",BUFSIZ,str1, str2, dat);
 
 
   char *ptr = strtok(str1,":");
